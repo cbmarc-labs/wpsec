@@ -12,7 +12,7 @@ Version:
 
 #wpadminbar { top: auto !important; bottom: 0; }
 
-#PPMiniCart { position: relative; z-index: 100; }
+#PPMiniCart { position: relative; z-index: 99999; }
 
 form input.error { border: 1px dotted red; }
 form select.error { border: 1px dotted red; }
