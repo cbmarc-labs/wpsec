@@ -1,0 +1,33 @@
+/*
+Theme Name: WP Simple E-Commerce
+Theme URI: 
+Description: Child theme for the Twenty Eleven theme
+Author: Marc Costa <cbmarc@gmail.com>
+Author URI: 
+Template: twentyeleven
+Version: 
+*/
+
+@import url("../twentyeleven/style.css");
+
+#wpadminbar { top: auto !important; bottom: 0; }
+
+#PPMiniCart { position: relative; z-index: 100; }
+
+form input.error { border: 1px dotted red; }
+form select.error { border: 1px dotted red; }
+
+.product_img {
+  width:250px;
+  padding:15px;
+  border-radius:15px;
+  border:1px solid #ddd;
+  margin:15px;
+  text-align:center;
+  float:left;
+}
+
+.product_data {
+  width:240px;
+  float:right;
+}

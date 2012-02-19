@@ -1,0 +1,101 @@
+/** Add css rules here for your application. */
+
+body {
+	background: #E2E2E2;
+	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #1982D1;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	background: white;
+	margin: 2em auto;
+	max-width: 1000px;
+}
+
+.search {
+	padding: 5%;
+	border-top: 2px solid #BBB;
+	color: #7A7A7A;
+}
+
+.header {
+	background-image: url('gwordpress/img/hanoi.jpg');
+	height: 288px;
+}
+
+.menu {
+	height: 40px;
+	background: #222;
+}
+
+.main {
+	margin: 1%;
+}
+
+.content {
+	width: 65%;
+	float:left;	
+	margin: 0 1% 1% 0;
+	padding: 2%;
+}
+
+.sidebar {
+	width: 25%;
+	float:right;
+	margin: 0 0 1% 0;
+}
+
+.widget {
+	margin: 2%;
+	padding: 2%;
+}
+
+.widget h3 {
+	color: #666;
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
+
+.widget ul {
+	line-height: 1.625;
+}
+
+.widget ul li {
+	font-size: 12px;
+}
+
+.widget ul li a {
+}
+
+.product {
+	border-bottom: 1px solid #DDD;
+	margin: 0 0 1.625em;
+	padding: 0 0 1.625em;
+}
+
+.product:last-child {
+	border:none;
+}
+
+.footer {
+	background: #F9F9F9;
+	border-top: 1px solid #DDD;
+	clear:both;
+	color: #666;
+	font-size: 12px;
+	line-height: 2.2em;
+	padding: 2.2em 0.5em;
+	text-align: center;
+}
